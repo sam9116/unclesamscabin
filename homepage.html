@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/metro.css" rel="stylesheet" />
+    <link href="css/metro-icons.css" rel="stylesheet">
+    <link href="css/datcabin.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+    <script src="js/metro.js"></script>
+    <script src="js/slick.js"></script>
+
+    <title>Uncle Sam's Cabin in the Woods</title>
+
+	<meta charset="utf-8" />
+    <script>
+        $(document).on('ready', function() {
+            $(".center").slick({
+                arrows:false,
+                infinite: true,
+                centerMode: true,
+                autoplay: true,
+                variableWidth: true,
+                slidesToShow: 5,
+                slidesToScroll: 3
+            });
+        });
+    </script>
+</head>
+<body id="cabinwall">
+   
+    <div class="flex-grid" >
+        <div class="container" >
+            <div class="row" id="corkboard">
+                <div class="cell " id="postit"> Welcome to Uncle Sam's Cabin</div>
+                <div class="cell " id="resume"><div id="textrotate"> What I've done</div> </div>
+                <div class="cell " id="interest"> What I wanna do</div>
+                <div class="cell " id="contact"><div id="textrotate_right"> How to find me</div> </div>
+            </div>
+            <section class="row center slider" data-sizes="200vw" style="padding:10px 0px 0px 0px;min-height:300px">
+                <div>
+                    <img src="assets/1008221_1376229199303912_1145803652_o.jpg">
+                </div>
+                <div>
+                    <img src="assets/10271250_1421576731435825_7300594777820464881_o.jpg">
+                </div>
+                <div>
+                    <img src="assets/10377982_1428327317427433_6628788563103625394_n.jpg">
+                </div>
+                <div>
+                    <img src="assets/10496087_1450911845168980_6110007815018617214_o.jpg">
+                </div>
+                <div>
+                    <img src="assets/11154829_1563885390538291_4707896569137242115_o.jpg">
+                </div>
+                <div>
+                    <img src="assets/14051719_1736212813305547_1501988961200709626_n.jpg">
+                </div>
+                <div>
+                    <img src="assets/18422228_1864972057096288_2903333330658603284_o.jpg">
+                </div>
+                <div>
+                    <img src="assets/18954659_1879647742295386_4304178789854872501_o.jpg">
+                </div>
+                <div>
+                    <img src="assets/21586726_10211805366881957_7197321375065087864_o.jpg">
+                </div>
+                <div>
+                    <img src="assets/21765485_1926638707596289_3599001310782756176_o.jpg" />
+                </div>
+            </section>
+            <footer>
+                <div class="row" id="footer">
+                    <div class="cells">I'm on : </div>  
+                    <span class="cell"></span>
+                    <span class="cell mif-linkedin mif-5x fg-blue"></span>
+                    <span class="cell mif-youtube mif-5x fg-red"></span>
+                    <span class="cell mif-facebook mif-5x fg-blue"></span>
+                    <span class="cell mif-steam mif-5x fg-black"></span>
+                    <span class="cell mif-github mif-5x fg-black"></span>
+
+
+                </div>
+                
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
