@@ -81,6 +81,15 @@
     transform: rotate(2deg);
 }
 
+#whativedone{
+    background-image:url("/assets/white-White-Paper-Template.png");
+    font-family:'Courier New';
+    font-size:12px;
+    padding:50px;
+    min-width:600px;
+
+}
+
     * {
       box-sizing: border-box;
     }

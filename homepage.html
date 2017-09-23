@@ -36,9 +36,12 @@
         <div class="container" >
             <div class="row" id="corkboard">
                 <div class="cell " id="postit"> Welcome to Uncle Sam's Cabin</div>
-                <div class="cell " id="resume"><div id="textrotate"> What I've done</div> </div>
+                <div class="cell " id="resume"><div id="textrotate" onclick="metroDialog.toggle('#whativedone')"> What I've done</div> </div>
                 <div class="cell " id="interest"> What I wanna do</div>
                 <div class="cell " id="contact"><div id="textrotate_right"> How to find me</div> </div>
+            </div>
+            <div data-role="dialog" id="whativedone">
+                testing
             </div>
             <section class="row center slider" data-sizes="200vw" style="padding:10px 0px 0px 0px;min-height:300px">
                 <div>
@@ -83,8 +86,7 @@
                     <span class="cell mif-github mif-5x fg-black"></span>
 
 
-                </div>
-                
+                </div>                
             </footer>
         </div>
     </div>
