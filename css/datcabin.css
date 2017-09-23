@@ -93,8 +93,10 @@
 .footerlink{
     font-family:'Segoe UI'; 
     font-size:20px;
-    color:cadetblue;
 
+}
+.footercolor{
+    color:darkslateblue;
 }
 
 
