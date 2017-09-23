@@ -81,7 +81,7 @@
     transform: rotate(2deg);
 }
 
-#whativedone{
+.paperpanel{
     background-image:url("/assets/papertemplate.jpg");
     background-repeat:no-repeat;
     background-origin:border-box;
