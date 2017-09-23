@@ -82,20 +82,19 @@
 }
 
 #whativedone{
-    background-image:url("/assets/white-White-Paper-Template.png");
+    background-image:url("/assets/papertemplate.jpg");
     background-repeat:no-repeat;
     background-size:cover;
+    max-width: 1000px;
     font-family:'Courier New';
     font-size:20px;
     padding:50px;
-    transition:ease-in 2s;
-
-
 }
 
-    * {
-      box-sizing: border-box;
-    }
+
+* {
+    box-sizing: border-box;
+}
 
 .slider {
        
