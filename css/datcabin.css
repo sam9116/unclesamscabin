@@ -83,10 +83,10 @@
 
 #whativedone{
     background-image:url("/assets/white-White-Paper-Template.png");
+    background-repeat:no-repeat;
     font-family:'Courier New';
-    font-size:12px;
+    font-size:20px;
     padding:50px;
-    min-width:600px;
 
 }
 
