@@ -1,4 +1,11 @@
-﻿#cabinwall {
+﻿@font-face{
+    font-family:'Segoe Script';
+    src:url("/assets/segoesc.ttf");
+    font-weight:normal;
+    font-style:normal;
+}
+
+#cabinwall {
     background-image: url("/assets/wood_planks_new_0001_02_preview.jpg");
     background-repeat: repeat;
 }
