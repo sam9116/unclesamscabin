@@ -52,7 +52,7 @@
                  data-close-button="true"
                  data-overlay-click-close="true">
                 <div class="button" onclick="metroDialog.toggle('#skills')"> Skills Competence Canada 2012 Provincial/National                          </div>
-                <p> CMPUT 201 C/STL Platform                                              </p>
+                <p> <div class="button" onclick="metroDialog.toggle('#cmput201')">CMPUT 201 C/STL Platform                                           </div>   </p>
                 <div class="button" onclick="metroDialog.toggle('#206')"> CMPUT 206/307 Photoshop/3DS Max                                     </div>
                 <p> CMPUT 250 Game Development</p>
                 <p> CMPUT 291/391 Database Development                                  </p>
@@ -135,8 +135,18 @@
                  
                  data-content-type="video"
                  id="cmput404">
-                <div data-role="video"><video><source src="assets/cmput404.mp4" type="video/mp4" /></video></div>
-                
+                <div data-role="video"><video><source src="assets/cmput404.mp4" type="video/mp4" /></video></div>                
+            </div>
+
+            <div data-role="dialog" id="cmput201"
+                 class="paperpanel"
+                 data-close-button="true"
+                 data-width="600">
+                <p> Here's my final project for cmput 201, the professor gave us 2 choices, either go along with a java-based line drawing api provided and supported by the teaching team. Or chose another platform called SDL and fend for ourselves. Obviously I had to go with the second option because how much a winner I am 😎</p>
+                <img src="assets/lander.jpg" />
+                <img src="assets/lander_1.jpg" />
+                <a href="assets/release.zip"><div class="mif-windows mif-5x fg-cyan"> Windows Executable</div></a>
+                <a href="assets/submit.tar"><div class="mif-linux mif-5x fg-black"> Ubuntu (Go Compile it yourself)</div></a>
             </div>
 
 
