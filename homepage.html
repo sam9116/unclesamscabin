@@ -39,7 +39,7 @@
 <body id="cabinwall" link="grey">
    
     <div class="flex-grid" >
-        <div class="container" >
+        <div class="container">
             <div class="row" id="corkboard">
                 <div class="cell" id="postit"> Welcome to Uncle Sam's Cabin</div>
                 <div class="cell" id="resume"><div id="textrotate" onclick="metroDialog.toggle('#whativedone')"> What I've done</div> </div>
@@ -58,7 +58,7 @@
                 <div class="button" onclick="metroDialog.toggle('#skills')"> Skills Competence Canada 2012 Provincial/National                          </div>
                 <p> <div class="button" onclick="metroDialog.toggle('#cmput201')">CMPUT 201 C/STL Platform                                           </div>   </p>
                 <div class="button" onclick="metroDialog.toggle('#206')"> CMPUT 206/307 Photoshop/3DS Max                                     </div>
-                <p> CMPUT 250 Game Development</p>
+                <p><div class="button" onclick="metroDialog.toggle('#250')">  CMPUT 250 Game Development</div></p>
                 <p> CMPUT 291/391 Database Development                                  </p>
                 <p><div class="button" onclick="metroDialog.toggle('#301')"> CMPUT 301 Android Development                                       </div></p>
                 <p><div class="button" onclick="metroDialog.toggle('#350')"> CMPUT 350 Game AI </div></p>
@@ -99,10 +99,10 @@
                  data-overlay-click-close="true">
                 <p><a href="mailto:sbao@ualberta.ca" target="_top">Email: sbao@ualberta.ca</a></p>
                 <p> <a href="callto:17806556091">(780)655-6091</a></p>
-                <p> I'm also on the social media listed below in the footer,</p> 
+                <p> I'm also on the social media listed below in the footer,</p>
                 <p> you could try shooting me a message over there </p>
 
-</div>
+            </div>
             <div data-role="dialog" id="skills"
                  data-background="bg-dark"
                  data-close-button="true"
@@ -117,12 +117,20 @@
                  data-width="600"
                  data-content-type="video"></div>
 
+            <div data-role="dialog" id="250"
+                 data-background="bg-dark"
+                 data-close-button="true"
+                 data-content='<iframe width="560" height="315" src="https://www.youtube.com/embed/MSeMERaD1Mk" frameborder="0" allowfullscreen></iframe>'
+                 data-width="600"
+                 data-content-type="video"></div>
+
             <div data-role="dialog" id="206"
                  data-background="bg-dark"
                  data-close-button="true"
                  data-content='<iframe width="560" height="315" src="https://www.youtube.com/embed/iCGt74i1QXQ" frameborder="0" allowfullscreen></iframe>'
                  data-width="600"
                  data-content-type="video"></div>
+
             <div data-role="dialog" id="301"
                  data-background="bg-dark"
                  data-close-button="true"
@@ -140,10 +148,9 @@
                  data-background="bg-dark"
                  data-close-button="true"
                  data-width="600"
-                 
                  data-content-type="video"
                  id="cmput404">
-                <div data-role="video"><video><source src="assets/cmput404.mp4" type="video/mp4" /></video></div>                
+                <div data-role="video"><video><source src="assets/cmput404.mp4" type="video/mp4" /></video></div>
             </div>
 
             <div data-role="dialog" id="cmput201"
@@ -152,15 +159,15 @@
                  data-width="1000">
                 <p> Here's my final project for cmput 201, the professor gave us 2 choices, either go along with a java-based line drawing api provided and supported by the teaching team. Or chose another platform called SDL and fend for ourselves. Obviously I had to go with the second option because how much a winner I am 😎</p>
                 <div class="row">
-                    <img class ="cell" src="assets/lander.png" style="max-height:200px;" />
-                    <img class ="cell" src="assets/lander_1.jpg" style="max-height:200px;" />
+                    <img class="cell" src="assets/lander.png" style="max-height:200px;" />
+                    <img class="cell" src="assets/lander_1.jpg" style="max-height:200px;" />
                 </div>
-                
+
                 <div class="row">
-                    <a class ="cell" href="assets/release.zip"><div class="mif-windows mif-5x fg-cyan"></div> Windows Version</a>
-                    <a class ="cell" href="assets/submit.tar"><div class="mif-linux mif-5x fg-black"> </div> Linux Version</a>
+                    <a class="cell" href="assets/release.zip"><div class="mif-windows mif-5x fg-cyan"></div> Windows Version</a>
+                    <a class="cell" href="assets/submit.tar"><div class="mif-linux mif-5x fg-black"> </div> Linux Version</a>
                 </div>
-                
+
             </div>
 
 
@@ -201,17 +208,17 @@
             </section>
             <footer>
                 <div class="row" id="footer">
-                    <div class="cells">I'm on : </div> 
-                    <a class ="cell" href="https://www.linkedin.com/in/samtheoneman/"><span class="cell mif-linkedin mif-5x fg-blue"></span></a>
-                    <a class ="cell" href="https://www.youtube.com/user/sam9116/"><span class="cell mif-youtube mif-5x fg-red"></span></a>
-                    <a class ="cell" href="http://steamcommunity.com/id/Noawps/"><span class="cell mif-steam mif-5x fg-black"></span></a>
-                    <a class ="cell" href="https://github.com/sam9116"><span class="cell mif-github mif-5x fg-black"></span></a>
+                    <div class="cells">I'm on : </div>
+                    <a class="cell" href="https://www.linkedin.com/in/samtheoneman/"><span class="cell mif-linkedin mif-5x fg-blue"></span></a>
+                    <a class="cell" href="https://www.youtube.com/user/sam9116/"><span class="cell mif-youtube mif-5x fg-red"></span></a>
+                    <a class="cell" href="http://steamcommunity.com/id/Noawps/"><span class="cell mif-steam mif-5x fg-black"></span></a>
+                    <a class="cell" href="https://github.com/sam9116"><span class="cell mif-github mif-5x fg-black"></span></a>
                     <p class="footerlink"> Powered by <a class="footercolor" href="https://azure.microsoft.com/en-us/">Microsoft Azure</a></p>
                     <p class="footerlink"> Front End: <a class="footercolor" href="https://metroui.org.ua/">MetroUICSS</a> & <a class="footercolor" href="http://kenwheeler.github.io/slick/"> slick.js</a></p>
                     <p class="footerlink"> Built, Designed by Yours Truly</p>
 
 
-                </div>                
+                </div>
             </footer>
         </div>
     </div>
