@@ -9,11 +9,11 @@
     background-image: url("/assets/wood_planks_new_0001_02_preview.jpg");
     background-repeat: repeat;
 }
+
 #corkboard {
     background-image: url("/assets/cork.png");
     background-repeat: repeat;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
     padding: 40px 10px 30px 40px;
     border: 10px,solid;
     border-image: url(/assets/503789872.jpg);
@@ -39,6 +39,7 @@
     height:80%;
     min-height: 100px;
 }
+
 #postit
 {
     min-width:300px;
@@ -97,13 +98,15 @@
     font-size:18px;
     padding:100px 50px 50px 190px;
 }
+
 .footerlink{
     font-family:'Segoe UI'; 
     font-size:20px;
 
 }
+
 .footercolor{
-    color:crimson;
+    color:aqua;
 }
 
 
@@ -111,8 +114,7 @@
     box-sizing: border-box;
 }
 
-.slider {
-       
+.slider {       
         width: auto;
         margin: 30px auto;
     }
